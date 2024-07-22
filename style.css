@@ -47,7 +47,7 @@ p {
     font-weight: 600;
     margin: 1.5em;
     text-align: center;
-    color: rgb(71, 71, 71);
+    color: #443b7a;
 }
 .cartao {
     width: 400px;
@@ -64,14 +64,21 @@ p {
     border: solid 2px #3401ac;
     padding: .5em 1em;
     border-radius: 10px;
-    color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0) ;
     background-color: #3f09bdcb;
     transition: .5s;
-    width: 160px;
+    width: 1690px;
     text-align: center;
 }
 
 .container a:hover {
     background-color: #4213af85;
     transform: translateY(-5px);
+}
+@media (max-width: 900px) {
+   .cartao {
+    width: 300px;
+   }
+    
+
 }
